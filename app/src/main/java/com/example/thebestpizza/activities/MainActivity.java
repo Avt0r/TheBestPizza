@@ -29,12 +29,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        fillList();
+        bannerList = findViewById(R.id.bannerList);
+        BannerAdapter adapter = new BannerAdapter(this, images);
+        bannerList.setAdapter(adapter);
+    }
+
+    private void fillList(){
         images.add(getDrawable(R.drawable.img));
         images.add(getDrawable(R.drawable.img_1));
         images.add(getDrawable(R.drawable.img_2));
         images.add(getDrawable(R.drawable.img_3));
-        bannerList = findViewById(R.id.bannerList);
-        BannerAdapter adapter = new BannerAdapter(this, images);
-        bannerList.setAdapter(adapter);
     }
 }

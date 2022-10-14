@@ -1,5 +1,6 @@
 package com.example.thebestpizza.objects;
 
+import android.graphics.drawable.Drawable;
 import android.media.Image;
 
 import java.util.ArrayList;
@@ -9,10 +10,10 @@ public class Combo extends Item{
 
     private final List<Dish> dishList = new ArrayList<>();
 
-    Combo(int price,String title, String description, Image image){
+    Combo(int price,String title, String description, Drawable image){
         super(price,title,description,image);
     }
-    Combo(int price, String title, String description, Image image, List<Dish> dishList){
+    Combo(int price, String title, String description, Drawable image, List<Dish> dishList){
         super(price,title,description,image);
         fillCombo(dishList);
     }
