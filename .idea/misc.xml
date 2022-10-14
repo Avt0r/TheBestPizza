@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/TheBestPizza/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/TheBestPizza/app/src/main/res/drawable/image.xml" value="0.1" />
+        <entry key="..\:/TheBestPizza/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/TheBestPizza/app/src/main/res/layout/banner_list_item.xml" value="0.24895833333333334" />
         <entry key="..\:/TheBestPizza/app/src/main/res/layout/dish_list_item.xml" value="0.12" />
       </map>
     </option>
